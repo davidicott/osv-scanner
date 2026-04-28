@@ -49,3 +49,6 @@ require (
 	golang.org/x/tools v0.17.0 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 )
+
+// personal fork - studying vulnerability scanning patterns
+// upstream: https://github.com/google/osv-scanner
