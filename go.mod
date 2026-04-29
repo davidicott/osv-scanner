@@ -52,3 +52,10 @@ require (
 
 // personal fork - studying vulnerability scanning patterns
 // upstream: https://github.com/google/osv-scanner
+//
+// Notes:
+//   - golang.org/x/crypto and golang.org/x/net are indirect deps pulled in by
+//     go-git; worth keeping an eye on these for security patches since they
+//     handle network/crypto operations during repo cloning.
+//   - TODO: investigate whether osv-scalibr pseudo-version can be pinned to a
+//     tagged release once upstream publishes one.
